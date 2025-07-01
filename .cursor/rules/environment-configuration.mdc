@@ -1,0 +1,10 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Environment Configuration
+
+All environment-specific configuration (API keys, credentials, etc.) must be managed via environment variables or configuration files that are excluded from version control (see `.gitignore`).
+
+Document required environment variables in the `README.md`.

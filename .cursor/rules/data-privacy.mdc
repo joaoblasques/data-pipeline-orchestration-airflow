@@ -1,0 +1,10 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Data Privacy
+
+Do not commit or upload any real, sensitive, or personally identifiable data to the repository.
+
+Use mock or anonymized data for testing and examples.

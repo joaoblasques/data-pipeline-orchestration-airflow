@@ -1,0 +1,8 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Conflict Resolution
+
+If a merge conflict occurs, resolve it locally and test the code before pushing the resolved changes.

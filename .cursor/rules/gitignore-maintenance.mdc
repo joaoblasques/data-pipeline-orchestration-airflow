@@ -1,0 +1,8 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# .gitignore Maintenance
+
+Regularly update `.gitignore` to ensure that build artifacts, logs, and sensitive files are not tracked by Git.

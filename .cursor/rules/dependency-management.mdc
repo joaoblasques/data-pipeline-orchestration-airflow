@@ -1,0 +1,10 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Dependency Management
+
+Use a single requirements file (e.g., `requirements.txt`) for Python dependencies.
+
+Regularly review and update dependencies to avoid security vulnerabilities.

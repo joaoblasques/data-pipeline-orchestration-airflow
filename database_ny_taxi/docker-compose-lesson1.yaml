@@ -1,0 +1,20 @@
+
+services:
+  pgdatabase:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=root2
+      - POSTGRES_PASSWORD=root2
+      - POSTGRES_DB=ny_taxi
+    volumes:
+      - "./ny_taxi_postgres_data:/var/lib/postgresql/data:rw"
+    ports:
+      - "5433:5432"
+    networks:
+      - airflow
+
+    
+networks:
+  airflow:
+    external: true
+    name: airflow2025_default

@@ -1,0 +1,12 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Image and Asset Management
+
+Store only necessary images/assets in the `images/` directory.
+
+Optimize images for size and relevance.
+
+Do not commit large or unnecessary binary files.

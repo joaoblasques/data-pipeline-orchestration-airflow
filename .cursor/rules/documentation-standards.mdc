@@ -1,0 +1,10 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Documentation Standards
+
+All public functions, classes, and modules must have docstrings.
+
+Keep the `README.md` up to date with setup, usage, and troubleshooting instructions.

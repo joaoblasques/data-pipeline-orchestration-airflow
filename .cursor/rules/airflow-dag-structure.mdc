@@ -1,0 +1,12 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Airflow DAG Structure
+
+All Airflow DAGs should be placed in the `airflow/dags/` directory.
+
+Each DAG file must have a docstring at the top describing its purpose.
+
+DAGs should be modular, with reusable tasks where possible.

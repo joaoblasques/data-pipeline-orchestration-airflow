@@ -1,0 +1,10 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Code Review
+
+No code should be merged without at least one approval from another team member.
+
+Reviewers should check for code quality, adherence to style guides, and proper documentation.

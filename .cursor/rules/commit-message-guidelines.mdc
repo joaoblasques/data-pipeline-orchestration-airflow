@@ -1,0 +1,8 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Commit Message Guidelines
+
+All commit messages must be clear, concise, and describe the reason for the change. Use the imperative mood (e.g., "Add feature X", "Fix bug Y"). Avoid generic messages like "update" or "fix".

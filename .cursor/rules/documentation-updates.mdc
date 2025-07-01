@@ -1,0 +1,8 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Documentation Updates
+
+Update relevant documentation (e.g., `README.md`, code comments) with every significant code or feature change.

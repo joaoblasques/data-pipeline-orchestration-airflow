@@ -1,0 +1,8 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Sensitive Data
+
+Never commit sensitive data (passwords, API keys, credentials) to the repository. Use environment variables and add sensitive files to `.gitignore`.

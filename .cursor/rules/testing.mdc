@@ -1,0 +1,12 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Testing
+
+All new features and bugfixes must include relevant tests (unit, integration, or end-to-end as appropriate).
+
+Tests should be placed in a `tests/` directory or alongside the code they test.
+
+Run all tests before merging to the main branch.

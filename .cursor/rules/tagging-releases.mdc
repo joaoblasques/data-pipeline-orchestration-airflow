@@ -1,0 +1,8 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Tagging Releases
+
+Tag all production releases with a semantic version (e.g., `v1.0.0`) and include release notes in the tag description.

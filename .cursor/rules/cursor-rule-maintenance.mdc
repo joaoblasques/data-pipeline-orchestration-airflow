@@ -1,0 +1,10 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Cursor Rule Maintenance
+
+Review and update Cursor rules as the project evolves.
+
+Remove obsolete rules and add new ones as needed.

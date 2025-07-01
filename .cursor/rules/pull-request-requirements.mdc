@@ -1,0 +1,10 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Pull Request Requirements
+
+All changes to the main branch must go through a pull request (PR).
+
+Each PR should have a clear description, reference related issues, and request at least one code review.
