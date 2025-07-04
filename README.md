@@ -20,11 +20,9 @@
 # Airflow 2025
 
 
-## Module 1 recap
+## Previous Project recap
 
-_([Video source](https://www.youtube.com/watch?v=0yK7LXwYeD0))_
-
-In the previous module we created a script that:
+In the previous [Project]() we created a script that:
 
 - Downloads a file and unzips it.
 - Saves it locally as a CSV file.
