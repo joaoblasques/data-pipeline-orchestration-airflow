@@ -22,7 +22,7 @@
 
 ## Previous Project recap
 
-In the previous [Project]() we created a script that:
+In the previous [Project](https://github.com/joaoblasques/data-pipeline-simple) we created a script that:
 
 - Downloads a file and unzips it.
 - Saves it locally as a CSV file.
