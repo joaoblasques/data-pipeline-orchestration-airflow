@@ -1,3 +1,6 @@
 venv/
 .envrc
 .claude/
+airflow/google/
+airflow/logs/
+database_ny_taxi/

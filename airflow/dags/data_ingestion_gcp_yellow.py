@@ -16,9 +16,9 @@ import pyarrow.parquet
 
 
 # Make sure the values ​​match your gcp values
-PROJECT_ID="zoomcamp-airflow-444903"
-BUCKET="zoomcamp_datalake"
-BIGQUERY_DATASET = "airflow2025b"
+PROJECT_ID="ny-taxi-464111"
+BUCKET="ny-taxi-464111-bucket"
+BIGQUERY_DATASET = "ny_taxi_464111_bigquery_dataset"
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 
 
@@ -70,8 +70,8 @@ def upload_to_gcs(bucket, object_name, local_file, gcp_conn_id="gcp-airflow"):
 dag = DAG(
     "GCP_ingestion_yellow",
     schedule_interval="0 6 2 * *",
-    start_date=datetime(2019, 2, 1),
-    end_date=datetime(2019, 2, 20),
+    start_date=datetime(2019, 1, 1),
+    end_date=datetime(2019, 4, 20),
     catchup=True, 
     max_active_runs=1,
 )

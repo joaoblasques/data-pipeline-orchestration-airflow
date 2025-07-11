@@ -3,6 +3,7 @@
 ### Table of contents
 
 - [Airflow 2025](#airflow-2025)
+    - [Previous Project recap](#previous-project-recap)
     - [Module 1 recap](#module-1-recap)
     - [Data Lake vs Data Warehouse](#data-lake-vs-data-warehouse)
     - [ETL vs ELT](#etl-vs-elt)    
@@ -1036,9 +1037,9 @@ Complete Connection id, Connection type, your project id and Keyfile Path (with 
 
 ### 2: Prepare the DAG
 
-As an example, we will download and process the green files from January 2019 to December 2019.
+As an example, we will download and process the yellow files from January 2019 to December 2019.
 
-To process the Yellow Taxi data, the DAG is similar, slightly changing the schema of the tables and the utility function to convert to parquet is done in chunks to avoid overloading the PC.
+To process the "Yellow" Taxi data, the DAG is similar, slightly changing the schema of the tables and the utility function to convert to parquet is done in chunks to avoid overloading the PC.
 
 data_ingestion_gcp_green.py looks like this:
 
@@ -1062,9 +1063,9 @@ import pyarrow.parquet
 
 
 # Make sure the values ​​match your gcp values
-PROJECT_ID="zoomcamp-airflow-444903"
-BUCKET="zoomcamp_datalake"
-BIGQUERY_DATASET = "airflow2025b"
+PROJECT_ID="ny-taxi-464111"
+BUCKET="ny-taxi-464111-bucket"
+BIGQUERY_DATASET = "ny_taxi_464111_bigquery_dataset"
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 
 

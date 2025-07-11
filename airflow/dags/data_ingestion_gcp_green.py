@@ -16,11 +16,10 @@ import pyarrow.parquet
 
 
 # Make sure the values ​​match your gcp values
-PROJECT_ID="zoomcamp-airflow-444903"
-BUCKET="zoomcamp_datalake"
-BIGQUERY_DATASET = "airflow2025b"
+PROJECT_ID="ny-taxi-464111"
+BUCKET="ny-taxi-464111-bucket"
+BIGQUERY_DATASET = "ny_taxi_464111_bigquery_dataset"
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
-
 
 # Utility functions
 def download(file_gz, file_csv, url):

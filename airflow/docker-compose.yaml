@@ -72,6 +72,7 @@ services:
         volumes:
             - ./dags:/opt/airflow/dags
             - ./logs:/opt/airflow/logs
+            - ./google:/opt/airflow/google:ro
             - shared-data:/opt/airflow/shared
 
     webserver:
@@ -104,6 +105,7 @@ services:
         volumes:
             - ./dags:/opt/airflow/dags
             - ./logs:/opt/airflow/logs
+            - ./google:/opt/airflow/google:ro
             - shared-data:/opt/airflow/shared            
 
         user: "50000:0"
